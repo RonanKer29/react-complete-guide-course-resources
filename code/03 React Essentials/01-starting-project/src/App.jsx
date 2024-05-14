@@ -14,6 +14,7 @@ function App() {
   }
 
   return (
+    //we can also use React.Fragment instead of div (importing Fragment), or simply remove the div and add "<>" at the start and "</>" at the end of the code
     <div>
       <Header />
       <main>
