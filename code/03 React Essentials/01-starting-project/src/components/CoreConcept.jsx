@@ -1,4 +1,4 @@
-export default function CoreConcepts(props) {
+export default function CoreConcept(props) {
   return (
     <li>
       <img src={props.image} alt={props.title} />
@@ -10,7 +10,7 @@ export default function CoreConcepts(props) {
 
 // Other way to write the CoreConcepts component, with less code:
 
-// function CoreConcepts({ image, title, description }) {
+// function CoreConcept({ image, title, description }) {
 //   return (
 //     <li>
 //       <img src={image} alt={title} />
